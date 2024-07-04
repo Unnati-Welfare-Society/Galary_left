@@ -1,0 +1,161 @@
+
+/* contact-us */
+
+.contactus-text-ph a{
+    display:flex;
+    gap:0.5rem;
+    text-decoration: none;
+    color:white;
+}
+
+
+.contactus-text-email a{
+    display:flex;
+    gap:0.5rem;
+    text-decoration: none;
+    color:white;
+}
+
+.ph-img img{
+    height:25px;
+    width:25px;
+}
+.gm-img img{
+    height:25px;
+    width:25px;
+}
+
+/* ..... */
+/* logo social-icon */
+.social-link{
+    display: flex;
+    gap:0.5rem;
+    
+}
+.social-txt a{
+    color: white; /* Changes the text color to white */
+    text-decoration: none;
+}
+
+.yt-img img{
+    height:25px;
+    width:25px;
+
+}
+
+.li-img img{
+    height:25px;
+    width:25px;
+}
+.in-img img{
+    height:25px;
+    width:25px;
+}
+.fb-img img{
+    height:25px;
+    width:25px;
+}
+
+/* ....... */
+/* FOOTER PART 1 */
+.footer-contact {
+    margin: 0;
+    padding: 3rem;
+    display: flex;
+    background: #000000d1;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.f-img {
+    justify-content: center;
+    height: 10rem;
+    flex: 1 1 20%; /* Allows it to take appropriate width */
+    text-align: center;
+}
+
+.f-img > img {
+    justify-content: space-around;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.f-contactus,
+.f-social,
+.f-newslater {
+    color: #ffffff;
+    flex: 1 1 20%; /* Allows items to be responsive */
+    min-width: 200px; /* Sets a minimum width for smaller screens */
+}
+
+/* FOOTER PART 2 */
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+/* Media Queries */
+
+/* Laptops and tablets */
+@media (max-width: 1024px) {
+    .footer-contact {
+        flex-direction: column; /* Stacks items vertically */
+        align-items: center; /* Centers items */
+    }
+
+    .f-contactus,
+    .f-social,
+    .f-newslater,
+    .f-img {
+        flex: 1 1 100%; /* Takes full width on smaller screens */
+        text-align: center; /* Centers text */
+        margin-bottom: 1rem; /* Adds spacing between items */
+    }
+}
+
+/* Tablets and smartphones */
+@media (max-width: 768px) {
+    .footer-contact {
+        padding: 2rem; /* Reduces padding */
+    }
+
+    .f-img {
+        height: 8rem; /* Adjusts height for smaller screens */
+    }
+
+    .f-img > img {
+        width: 8rem; /* Adjusts image size for smaller screens */
+        height: 8rem;
+    }
+
+    .f-contactus,
+    .f-social,
+    .f-newslater {
+        margin-bottom: 1.5rem; /* Adds more spacing between items */
+    }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+    .footer-contact {
+        padding: 1rem; /* Further reduces padding */
+    }
+
+    .f-img {
+        height: 6rem; /* Adjusts height for smaller screens */
+    }
+
+    .f-img > img {
+        width: 6rem; /* Adjusts image size for smaller screens */
+        height: 6rem;
+    }
+
+    .f-contactus,
+    .f-social,
+    .f-newslater {
+        margin-bottom: 2rem; /* Adds more spacing between items */
+    }
+}

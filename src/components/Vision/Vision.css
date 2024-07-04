@@ -1,0 +1,80 @@
+/* Vision Container */
+.vision-container {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  padding: 5rem; /* Add some padding */
+  /* background: linear-gradient(to top right, white, #737373); Gradient background */
+  background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.8795063147384129) 0%, rgba(0,0,0,0.573326539457514) 48%, rgba(0,0,0,0.778382719232795) 100%);
+}
+
+/* Home Image */
+.vision-img {
+  flex: 1 1 50%; /* Flex to allow responsiveness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px; /* Minimum width to ensure readability */
+}
+
+.vision-img img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Vision Content */
+.vision-content {
+  text-align: center;
+  padding: 5px;
+  flex: 1 1 50%; /* Flex to allow responsiveness */
+  min-width: 300px; /* Minimum width to ensure readability */
+}
+
+/* Vision Heading */
+.vision-heading h1 {
+  font-size: 2rem; /* Default font size */
+  margin: 1rem 0;
+  color:white; /* Change text color to white */
+}
+
+/* Vision Body Text */
+.vision-body-text b p {
+  font-size: 1.25rem; /* Default font size */
+  margin: 1rem 0;
+  color: white; /* Change text color to white */
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .vision-heading h1 {
+    font-size: 1.75rem; /* Smaller font size for tablets */
+  }
+
+  .vision-body-text b p {
+    font-size: 1rem; /* Smaller font size for tablets */
+  }
+
+  .vision-container {
+    padding: 0.5rem; /* Reduce padding for tablets */
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .vision-heading h1 {
+    font-size: 1.5rem; /* Smaller font size for smartphones */
+  }
+
+  .vision-body-text b p {
+    font-size: 0.875rem; /* Smaller font size for smartphones */
+  }
+
+  .vision-container {
+    padding: 0.25rem; /* Further reduce padding for smartphones */
+  }
+}

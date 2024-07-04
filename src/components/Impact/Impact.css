@@ -1,0 +1,43 @@
+.i-body{
+    justify-content: center;
+    padding: 1rem;
+    background-color: #000000;
+    
+}
+.i-heading{
+    justify-content: center;
+    text-align:center;
+    color:white;
+}
+
+.counter-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  
+}
+
+.counter {
+  text-align: center;
+}
+
+.counter h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.counter p {
+  font-size: 1.25rem;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .counter-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .counter {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,75 @@
+/* Mission Container */
+.mission-container {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Align items vertically */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  padding: 5rem; /* Add some padding */
+}
+
+/* Home Content */
+.mission-content {
+  text-align: center;
+  padding: 5px;
+  flex: 1 1 50%; /* Flex to allow responsiveness */
+  min-width: 300px; /* Minimum width to ensure readability */
+}
+
+/* Home Heading */
+.mission-heading h1 {
+  font-size: 2rem; /* Default font size */
+  margin: 1rem 0;
+}
+
+/* Home Body Text */
+.mission-body-text h3 {
+  font-size: 1.25rem; /* Default font size */
+  margin: 1rem 0;
+}
+
+/* Home Image */
+.mission-img {
+  flex: 1 1 50%; /* Flex to allow responsiveness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px; /* Minimum width to ensure readability */
+}
+
+.mission-img img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .mission-heading h1 {
+    font-size: 1.75rem; /* Smaller font size for tablets */
+  }
+
+  .mission-body-text h3 {
+    font-size: 1rem; /* Smaller font size for tablets */
+  }
+
+  .mission-container {
+    padding: 0.5rem; /* Reduce padding for tablets */
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .mission-heading h1 {
+    font-size: 1.5rem; /* Smaller font size for smartphones */
+  }
+
+  .mission-body-text h3 {
+    font-size: 0.875rem; /* Smaller font size for smartphones */
+  }
+
+  .mission-container {
+    padding: 0.25rem; /* Further reduce padding for smartphones */
+  }
+}

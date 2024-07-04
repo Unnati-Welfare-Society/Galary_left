@@ -1,0 +1,112 @@
+/* Menu Container */
+.menu-container {
+  display: flex;
+  background: linear-gradient(to bottom right, rgb(178, 166, 166), #3b3a3a);
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 0.5rem;
+  gap: 1.5rem;
+}
+
+/* Dropdown Container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  flex-direction: column;
+  margin-top: 0.5rem; /* Adjust margin to avoid overlap */
+  border-radius: 0.5rem; /* Match button border radius */
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 0.5rem 1rem; /* Match main button padding */
+  text-decoration: none;
+  display: block;
+  background-color: rgb(108, 228, 246);
+  border: solid 1px;
+  text-align: center;
+  width: 100%; /* Ensure full width */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-content button:hover {
+  background-color: #65e1f1;
+  color: black;
+  transform: scale(1.01);
+}
+
+/* Ensure the dropdown stays open when interacting with it */
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Space between text and icon */
+}
+
+/* Menu Buttons */
+.menu-container button, .dropdown button {
+  padding: 0.5rem 1rem; /* Adjust padding */
+  background-color: white; /* Change background to white */
+  color: black; /* Change text color to black */
+  border: none;
+  border-radius: 0.5rem; /* Increase border radius for more rounded corners */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  height: 2.5rem; /* Set a fixed height for consistency */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-decoration: none; /* Remove text decoration */
+}
+
+.menu-container button:hover, .dropdown-content button:hover {
+  background-color: #fffc38; /* Change hover background to a light grey */
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .menu-container {
+    padding: 0.75rem; /* Adjust padding */
+  }
+
+  .menu-container button, .dropdown button {
+    padding: 0.375rem 0.75rem; /* Further adjust padding */
+    font-size: 0.875rem; /* Reduce font size */
+    height: 2rem; /* Reduce height for smaller screens */
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .menu-container {
+    padding: 0.5rem; /* Further reduce padding */
+  }
+
+  .menu-container button, .dropdown button {
+    padding: 0.25rem 0.5rem; /* Further adjust padding */
+    font-size: 0.75rem; /* Further reduce font size */
+    height: 1.5rem; /* Further reduce height */
+  }
+}

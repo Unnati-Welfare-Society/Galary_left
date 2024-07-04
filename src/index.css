@@ -1,0 +1,10 @@
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    display: none; /* Hides the scrollbar */
+}
+
+/* For Firefox */
+body {
+    scrollbar-width: none; /* Hides the scrollbar */
+}
+

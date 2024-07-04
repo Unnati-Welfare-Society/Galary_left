@@ -1,0 +1,61 @@
+/*   Our People   */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+main{
+  margin: auto;
+  background-color: #D9D9D9;
+}
+@media (max-width: 1000px) {
+  .line {
+    display: none;
+  }
+}
+.member {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.member .card{
+  width: 22rem;
+}
+.group .card{
+  width: 18rem;
+}
+.pride .card{
+  width: 15rem;
+}
+.thought {
+  width: 40rem;
+  margin: 5rem;
+  font-size: 1.2rem;
+}
+.pride {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.group-1,
+.ground,
+.academic,
+.social,
+.tech
+ {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+.line {
+  width: 0;
+  height: 60vmin;
+  border: 1px solid black;
+}
