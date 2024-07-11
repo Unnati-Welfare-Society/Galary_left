@@ -32,6 +32,9 @@ const Nav = () => {
       <RouterLink to="/people" style={{ textDecoration: 'none' }}>
         <button>People</button>
       </RouterLink>
+      <RouterLink to="/galary" style={{ textDecoration: 'none' }}>
+        <button>Galary</button>
+      </RouterLink>
       <button onClick={() => scrollToSection('counter')}>Impact</button>
       <button onClick={() => scrollToSection('joinus')}>Join Us</button>
       <button onClick={() => scrollToSection('footer')}>Contact Us</button>
