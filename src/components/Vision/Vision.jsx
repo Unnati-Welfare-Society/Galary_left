@@ -5,7 +5,7 @@ const Vision = () => {
     <div>
         <div className='vision-container'>
             <div className='vision-img'>
-              <img src="/home.png" alt="" />
+              <img src="heart_UWS.jpg" alt="" />
             </div>
             <div className='vision-content'>
               <div className='vision-heading'><h1><b>Our Vision</b></h1></div>
