@@ -7,18 +7,21 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ImageCarousel = () => {
   const slides = [
-    { image: 'IrfanRaj.jpg', text: 'Caption for Image 1' },
-    { image: 'IrfanRaj.jpg', text: 'Caption for Image 2' },
-    { image: 'IrfanRaj.jpg', text: 'Caption for Image 3' },
-    { image: 'IrfanRaj.jpg', text: 'Caption for Image 4' },
-    { image: 'IrfanRaj.jpg', text: 'Caption for Image 5' },
-    { image: 'IrfanRaj.jpg', text: 'Caption for Image 6' }
+    { image: 'lamp_ingite1.JPG', text: 'Caption for Image 1' },
+    { image: 'lamp_ignite2.JPG', text: 'Caption for Image 2' },
+    { image: 'lamp_ignite3.JPG', text: 'Caption for Image 3' },
+    { image: 'shawl_giving.JPG', text: 'Caption for Image 4' },
+    { image: 'plant_giving.JPG', text: 'Caption for Image 5' },
+    { image: 'yogaday.jpg', text: 'Caption for Image 6' },
+    { image: 'world_child_labour_day.jpg', text: 'Caption for Image 7' },
+    { image: 'PPS.jpg', text: 'Caption for Image 7' }
+    
   ];
 
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
