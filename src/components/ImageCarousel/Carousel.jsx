@@ -7,18 +7,18 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ImageCarousel = () => {
   const slides = [
-    { image: 'lamp_ingite1.JPG', text: 'Caption for Image 1' },
-    { image: 'lamp_ignite2.JPG', text: 'Caption for Image 2' },
-    { image: 'lamp_ignite3.JPG', text: 'Caption for Image 3' },
-    { image: 'shawl_giving.JPG', text: 'Caption for Image 4' },
-    { image: 'plant_giving.JPG', text: 'Caption for Image 5' },
-    { image: 'yogaday.jpg', text: 'Caption for Image 6' },
-    { image: 'world_child_labour_day.jpg', text: 'Caption for Image 7' },
-    { image: 'help_us.jpg', text: 'Caption for Image 7' },
-    { image: 'dyk.jpg', text: 'Caption for Image 7' },
-    { image: 'wfsd.jpg', text: 'Caption for Image 7' },
-    { image: 'PPS.jpg', text: 'Caption for Image 7' },
-    { image: 'motherday.jpg', text: 'Caption for Image 7' }
+    { image: 'lamp_ingite1.JPG', text: 'lamp lighting ceremony by BEO,SABOUR,BHAGALPUR,BIHAR' },
+    { image: 'lamp_ignite2.JPG', text: 'lamp lighting by Coordinator IIITBH' },
+    { image: 'lamp_ignite3.JPG', text: 'DR.Dheeraj ' },
+    { image: 'shawl_giving.JPG', text: 'Honoring our esteemed chief guest with a shawl, symbolizing our deep respect and gratitude' },
+    { image: 'plant_giving.JPG', text: 'Presenting a plant to our honored chief guest, symbolizing growth, sustainability, and our heartfelt appreciation for her presence' },
+    { image: 'yogaday.jpg', text: 'Yoga Day 2024' },
+    { image: 'world_child_labour_day.jpg', text: 'campaign againts child labour' },
+    { image: 'help_us.jpg', text: 'Join Us' },
+    { image: 'dyk.jpg', text: 'campaign' },
+    { image: 'wfsd.jpg', text: 'campaign.' },
+    { image: 'PPS.jpg', text: 'campaign.' },
+    { image: 'motherday.jpg', text: 'Happy Mothers Day' }
     
   ];
 
