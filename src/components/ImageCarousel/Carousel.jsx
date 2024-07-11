@@ -14,7 +14,11 @@ const ImageCarousel = () => {
     { image: 'plant_giving.JPG', text: 'Caption for Image 5' },
     { image: 'yogaday.jpg', text: 'Caption for Image 6' },
     { image: 'world_child_labour_day.jpg', text: 'Caption for Image 7' },
-    { image: 'PPS.jpg', text: 'Caption for Image 7' }
+    { image: 'help_us.jpg', text: 'Caption for Image 7' },
+    { image: 'dyk.jpg', text: 'Caption for Image 7' },
+    { image: 'wfsd.jpg', text: 'Caption for Image 7' },
+    { image: 'PPS.jpg', text: 'Caption for Image 7' },
+    { image: 'motherday.jpg', text: 'Caption for Image 7' }
     
   ];
 
