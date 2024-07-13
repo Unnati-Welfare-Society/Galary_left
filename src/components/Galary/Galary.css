@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.hea{
+    text-align: center;
+    font-size: 40px;
+}
+
+.card
+{
+    width: 350px;
+    height: 240px;
+    border: 10px solid lightgray;
+    background-color: lightgrey;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px black;
+    transition: 2s;
+}
+img{
+    height: 240px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.desc
+{
+    padding: 0 2px 0 2px;
+    color: black;
+}
+/* .text{
+    font-size: 20px;
+    padding-left: 80px;
+} */
+.card:hover
+{
+    box-shadow: 16px 16px 16px blue;
+}
+
