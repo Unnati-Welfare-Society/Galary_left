@@ -12,7 +12,7 @@
     font-size: 40px;
 }
 
-.card
+.g-card
 {
     width: 350px;
     height: 240px;
@@ -22,10 +22,10 @@
     margin: 20px;
     border-radius: 5px;
     box-shadow: 2px 4px 5px black;
-    transition: 2s;
+    transition: 0.5s;
 }
 img{
-    height: 240px;
+    height: 230px;
     width: 100%;
     border-radius: 5px 5px 0 0;
 }
@@ -38,8 +38,8 @@ img{
     font-size: 20px;
     padding-left: 80px;
 } */
-.card:hover
+.g-card:hover
 {
-    box-shadow: 16px 16px 16px blue;
+    box-shadow: 16px 16px 16px rgba(0,0,0,0.4);
 }
 

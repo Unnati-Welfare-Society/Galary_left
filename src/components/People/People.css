@@ -21,6 +21,9 @@ main{
 .member .card{
   width: 22rem;
 }
+.card img{
+  height: auto;
+}
 .group .card{
   width: 18rem;
 }
@@ -53,9 +56,13 @@ main{
   margin-top: 2rem;
   margin-bottom: 3rem;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
 }
 .line {
   width: 0;
   height: 60vmin;
   border: 1px solid black;
+}
+.card:hover{
+  box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 }
