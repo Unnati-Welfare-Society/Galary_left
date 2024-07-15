@@ -17,24 +17,22 @@ function People () {
             </div>
       </div>
     <div className="thought">
-            <div><h4>Thoughts</h4></div>
+            <div><h4>Founder's Desk</h4></div>
             <div className="mt-3">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                nobis enim omnis, perferendis a hic odit nulla deserunt facilis
-                nihil, eaque in delectus obcaecati rerum!
+                Welcome to UWS. We believe in the transformative power of education to change lives. Our mission is to bridge the digital divide and empower underprivileged students through technology and knowledge, fostering a brighter future for all.
               </p>
             </div>
           </div>
     </div>
     <div className="member mt-3 mx-3">
     <div className="thought">
-            <div><h4>Thoughts</h4></div>
+            <div><h4>Founder's Desk</h4></div>
             <div className="mt-3">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-                nobis enim omnis, perferendis a hic odit nulla deserunt facilis
-                nihil, eaque in delectus obcaecati rerum!
+                "Education is the passport to the future, for tomorrow belongs to those who prepare for it today."
+                <br/>— Malcolm X <br/><br/>
+                "Our mission at UWS is to empower underprivileged students through technology and education, ensuring equal access and opportunities for a brighter future. Together, we strive to eliminate barriers and foster a community where every child can thrive and succeed."
               </p>
             </div>
           </div>
