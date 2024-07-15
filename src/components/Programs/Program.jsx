@@ -6,7 +6,7 @@ const Program = () => {
         <div className='p-heading'><h1>PROGRAMS</h1></div>
           <div className='p-box'>
               <div className='program-1'>
-                  <div className='box-heading'><h3>Doubt Sessions</h3></div>
+                  <div className='box-heading'><h3>Mentorship</h3></div>
                   <div className='box-img'>
                       <div><img src="/p1-box1.png" alt="" /></div>
                       <div><img src="/p1-box12.png" alt="" /></div>
@@ -14,7 +14,7 @@ const Program = () => {
                   <div className='box-text'>At Unnati Welfare Society, we believe in empowering every student with knowledge. After our live classes, we offer dedicated Doubt Sessions to ensure no question goes unanswered. These sessions are designed to support underprivileged students in overcoming challenges and mastering their subjects. Our experienced mentors provide personalized guidance, fostering a nurturing environment where curiosity thrives and learning flourishes. Join us in bridging the digital divide—because every doubt resolved is a step toward a brighter future.</div>
               </div>
               <div className='program-2'>
-                  <div className='box-heading'><h3>Live Class & Demonstration</h3></div>
+                  <div className='box-heading'><h3>Digital Education</h3></div>
                   <div className='box-img'>
                       <div><img src="/p2-box1.png" alt="" /></div>
                       <div><img src="/p2-box12.png" alt="" /></div>
