@@ -26,7 +26,7 @@
   max-height: 400px; /* Set a max height for the image */
   border-top-left-radius: 20px; /* Rounded corner at top left */
   border-bottom-right-radius: 20px; /* Rounded corner at bottom right */
-  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  object-fit: fill; /* Ensures the image covers the container while maintaining aspect ratio */
 }
 
 /* Vision Content */
